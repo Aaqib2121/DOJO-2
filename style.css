@@ -3,152 +3,244 @@
     padding: 0;
 }
 
-body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
+  
 
-@media screen  {
-  .header-img{
-    background: url(images/farooq-img-1.jpg);
-    background-size: cover;
-    position: relative;
-    height: 100vh;
+
+
+
+
+
+
+
+
+
+ 
+
+marquee{
+    width:60% ;
+    direction:left;
+    height:50px;
     width: 100%;
-    overflow: hidden;
-    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
 }
-}
-
-@media screen {
-  .logo-img{
-    margin-left: 80px;
+iframe{
+    width: 100%;
+    height: 300px;
+    margin: 5% 0;
 }
 
-.header-text{
-    border-bottom: 2px solid white;
+input{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #ffff;
+    width: 300px;
+    padding: 5px;
 }
+.main{
+    
+    background-image: url(images/farooqsyed-img-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    
+    background-size: contain;
+    
+    
+    
+    
 }
-
-
-
-
-
-
-
-
-@media screen {
-  .banner-img{
-    background: url(images/farooqsyed-img-2.jpg);
-    position: relative;
-    height: 100px;
-    overflow: hidden;
+.navbar{
+   background-color: transparent;
+   border-bottom: 2px solid white;
 }
-
-.watch-youtube{
-    text-decoration: none;
-    color: black;
-    font-size: 40px;
-    font-weight: 500;
-    padding-top: 20px;
-}
-
-.you-tube{
-    text-decoration: none;
-    padding-left: 30px;
-    background-color: white;
-}
-}
-
-
-@media screen  {
-  .about-us{
-    background: url(images/classic-03-min.jpg);
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
-}
-
-.icon1{
-    font-size: 50px;
-}
-
-.feature-listing{
-    width: 280px;
-    height:500px;
-}
-
-.insta-1{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.insta-text-1{
-    padding: 15px 0 13px 0;
-    font-size: 20px;
-}
+.navbar-brand{
+    padding-left: 5px;
 }
 
 .head{
-    padding-left: 24rem;
-    padding-top: 10rem;
+    background-image: url(images/farooq-img-1.jpg);
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+
 }
-
-
-.head-icon{
-    font-size: 50px; 
-    color: black;
-}
-
-
-
-
-
-
-
-
-
-
-.marquee {
-    margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
+.text{
     position: absolute;
-    font-size: 70px;
-    opacity: 0.2;
-    font-weight: 900;
-  }
+    bottom: 40%;
+    left: 27%;
+    color: #ffff;
+    
+}
+
+div.slide-right {
+  width:100%;
   
-  .marquee span {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee  20s linear infinite;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
+}
+div.slide-right  {
+    animation-delay: 1s;
+  animation: 5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
   }
 
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 
+.sign{
+    position: absolute;
+    z-index: 8;
+    height: 100px;
+    width: 100px;
+    
+}
+.about{
+    z-index: 3;
+    background-color: rgb(247, 241, 241, .5);
+    
+    padding: 0 5%;
+    
+}
 
-  footer {
+.atext{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.text-center{
+    margin: 5% auto;
+}
+.smedia{
+    background-image: url(images/classic-03-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
+}
+.col-lg-3{
+    
+    margin: 10% 0;
+}
+.icol{
+    background-color: white;
+    padding-bottom: 30px;
+    height: 450px;
+    border-radius: 7px;
+}
+.red{
+    border: 2px solid red;
+    border-radius: 100%;
+    padding: 7% 10%;
+    margin: 5% 0;
+}
+.blue{
+    border: 2px solid blue;
+    border-radius: 100%;
+    padding: 7% 10%;
+    font-size: 50px;
+    color: blue;
+    margin: 5% 0;
+}
+.sm{
+    color: black;
+    padding: 5%;
+}
+.mtext{
+    width: 70%;
+    margin: auto;
+}
+.col-lg-2{
+    background-size: cover;
+    border: 5px solid #ffff;
+    height: 200px;
+    background-position: center;
+    
+
+}
+.i1{
+    background-image: url("images/i1.jpg");
+}
+.i2{
+    background-image: url("images/i2.jpg");
+}
+.i3{
+    background-image: url("images/i3.jpg");
+}
+.i4{
+    background-image: url("images/i4.jpg");
+}
+.i5{
+    background-image: url("images/i5.jpg");
+}
+.i6{
+    background-image: url("images/i6.jpg");
+}
+.i7{
+    background-image: url("images/i7.jpg");
+}
+.i8{
+    background-image: url("images/i8.jpg");
+}
+.i9{
+    background-image: url("images/i9.jpg");
+}
+.i10{
+    background-image: url("images/i10.jpg");
+}
+.i11{
+    background-image: url("images/i11.jpg");
+}
+.i12{
+    background-image: url("images/i12.jpg");
+}
+.row{
+    margin: 5%;
+}
+
+.links{
+    color: #ffff;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+
+@media (max-width:1028px){
+    .head{
+        background-position: center;
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    }
+    .text{
+        left: 15%;
+    }
+    .smedia{
+        padding: 20% 0;
+        clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%)
+    }
+    .form{
+        width: 100%;
+
+    }
+    .text-right, .text-left{
+        text-align: center !important;
+    }
+}
+
+footer {
     background-color: #00335a;
 }
 
@@ -163,13 +255,13 @@ body {
 }
 
 
-input {
+.input {
     border: none;
     outline: none;
     background: none;
     border-bottom: 2px solid #ffff;
     width: 300px;
-    padding: 5px;
+    padding-bottom: 2px;
 }
 
 
@@ -180,25 +272,6 @@ input {
 .footercolor i{
   color: green;
 }
-
-
-
-
-  .image-resize{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-  }
-
-  .farooq-img{
-    background-image: url(images/farooqsyed-img-2.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-    background-size: contain;
-  }
-
-  
 
 
  
