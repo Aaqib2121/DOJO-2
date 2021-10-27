@@ -240,39 +240,38 @@ input{
 }
 
 
-    footer {
-        background-color: #00335a;
-        background-size: cover;
+footer {
+     background-color: #00335a;
+     background-size: cover;
     }
     
     
     
-    .form-1 {
-        width: 60%;
-        padding: 5%;
-        margin: auto;
-        color: #ffff;
-    }
+.form-1 {
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+    color: #ffff;
+  }
     
     
-    .input {
-        border: none;
-        outline: none;
-        background: none;
-        border-bottom: 2px solid #ffff;
-        width: 300px;
-        padding-bottom: 2px;
-    }
+.input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #ffff;
+    width: 300px;
+    padding-bottom: 2px;
+  }
     
     
-    .footercolor{
-      font-size: 23px;
-    }
+.footercolor{
+    font-size: 23px;
+  }
     
-    .footercolor i{
-      color: green;
-    }
-
+.footercolor i{
+    color: green;
+  }
 
 
 
