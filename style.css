@@ -24,7 +24,7 @@ iframe{
 }
 
 .search-icon{
-    padding-right: 90px;
+    padding-right: 160px;
 }
 
 input{
@@ -54,7 +54,7 @@ input{
 
 .navbar-brand{
     padding-left: 35px;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .head{
@@ -239,7 +239,7 @@ input{
 
 }
 
-@media screen {
+
     footer {
         background-color: #00335a;
         background-size: cover;
@@ -272,7 +272,7 @@ input{
     .footercolor i{
       color: green;
     }
-}
+
 
 
 
