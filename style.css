@@ -170,10 +170,8 @@ input{
 }
 
 .img-work{
-    background-size: cover;
     width: 200px;
     height: 200px;
-    background-position: center;
     object-fit: cover;
 }
 
