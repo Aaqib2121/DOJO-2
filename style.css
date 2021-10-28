@@ -167,45 +167,16 @@ input{
     border: 5px solid #ffff;
     height: 200px;
     background-position: center;
-    
+}
 
+.img-work{
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    object-fit: cover;
 }
-.i1{
-    background-image: url("images/i1.jpg");
-}
-.i2{
-    background-image: url("images/i2.jpg");
-}
-.i3{
-    background-image: url("images/i3.jpg");
-}
-.i4{
-    background-image: url("images/i4.jpg");
-}
-.i5{
-    background-image: url("images/i5.jpg");
-}
-.i6{
-    background-image: url("images/i6.jpg");
-}
-.i7{
-    background-image: url("images/i7.jpg");
-}
-.i8{
-    background-image: url("images/i8.jpg");
-}
-.i9{
-    background-image: url("images/i9.jpg");
-}
-.i10{
-    background-image: url("images/i10.jpg");
-}
-.i11{
-    background-image: url("images/i11.jpg");
-}
-.i12{
-    background-image: url("images/i12.jpg");
-}
+
 .row{
     margin: 5%;
 }
