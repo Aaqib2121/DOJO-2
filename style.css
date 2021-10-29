@@ -165,7 +165,7 @@ input{
 
  @media screen {
     .img-work{
-        width: 85%;
+        width: 40%;
         height:100%;
         object-fit: cover;
     }
