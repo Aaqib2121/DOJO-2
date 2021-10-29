@@ -163,12 +163,14 @@ input{
     margin: auto;
 }
 
-
-.img-work{
-    width: 30%;
-    height:100%;
-    object-fit: cover;
+@media (max-width:600px){
+    .img-work{
+        width: 55%;
+        height:100%;
+        object-fit: cover;
+    }
 }
+
 
 .row{
     margin: 5%;
