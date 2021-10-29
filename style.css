@@ -165,8 +165,8 @@ input{
 
 
 .img-work{
-    width: 430px;
-    height:430px;
+    width: 30%;
+    height:100%;
     object-fit: cover;
 }
 
