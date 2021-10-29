@@ -163,13 +163,13 @@ input{
     margin: auto;
 }
 
-@media (max-width:600px){
+/* @media (max-width:600px){ */
     .img-work{
-        width: 55%;
+        width: 400px;
         height:100%;
         object-fit: cover;
     }
-}
+/* } */
 
 
 .row{
