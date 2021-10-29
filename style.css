@@ -163,19 +163,19 @@ input{
     margin: auto;
 }
 
- 
     .img-work{
-        width: 280px;
+        width: 290px;
         height:100%;
         object-fit: cover;
+        padding: 22px;
     }
     
 
 
 
-.row{
+/* .row{
     margin: 5%;
-}
+} */
 
 .links{
     color: #ffff;
