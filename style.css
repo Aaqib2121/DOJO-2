@@ -163,13 +163,12 @@ input{
     margin: auto;
 }
 
- @media screen {
+ 
     .img-work{
-        width: 57%;
+        width: 280px;
         height:100%;
         object-fit: cover;
     }
- }
     
 
 
