@@ -117,9 +117,13 @@ input{
     width: 70%;
     margin: auto;
 }
+
+
 .text-center{
     margin: 5% auto;
 }
+
+
 .smedia{
     background-image: url(images/classic-03-min.jpg);
     background-size: cover;
@@ -163,18 +167,17 @@ input{
     margin: auto;
 }
 
-    .img-work{
-        width: 290px;
-        height:306px;
-        object-fit: cover;
-        padding: 22px;
-    }
+
+
+.img-work{
+    object-fit: cover;
+}
     
 
 
 
 /* .row{
-    margin: 5%;
+    margin: 2%;
 } */
 
 .links{
