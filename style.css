@@ -169,16 +169,8 @@ input{
 
 
 
-.img-work{
-    object-fit: cover;
-}
+
     
-
-
-
-/* .row{
-    margin: 2%;
-} */
 
 .links{
     color: #ffff;
@@ -205,6 +197,10 @@ input{
     }
     .text-right, .text-left{
         text-align: center !important;
+    }
+    .img-work{
+        object-fit: cover;
+        padding-bottom: 10px;
     }
 
 }
