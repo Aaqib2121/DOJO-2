@@ -10,6 +10,7 @@ body{
 
 
 nav.sticky{
+    position: sticky;
     background-color: white;
 }
 
