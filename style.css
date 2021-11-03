@@ -8,11 +8,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (max-width: 320px){
 
 nav.sticky{
-    background: white;
-}
+    background-color: white;
 }
 
 marquee{
@@ -58,8 +56,7 @@ input{
 }
 
 .navbar-brand{
-    padding-left: 35px;
-    font-size: 35px;
+    padding-left: 45px;
 }
 
 .head{
