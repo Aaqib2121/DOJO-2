@@ -16,7 +16,7 @@
 <body>
    
 
-    <nav class="navbar fixed-top navbar-light ">
+    <nav class="navbar fixed-top navbar-light bgcolor scrolled">
         <a class="navbar-brand" href="#">FAROOQ SYED</a>
         <a class="form-inline overflow-hidden" href=""><i class="fas fa-search search-icon"></i></a>
     </nav>
@@ -35,9 +35,8 @@
       <div class="about container-fluid">
         <marquee >
             <h1>FAROOQ SYED FAROOQ SYED FAROOQ SYED </h1>
-            </marquee>
-            
-        </h1> 
+        </marquee>
+             
 
           <h6 class="atext text-center">I am the CEO of Springfield Real Estate in Dubai. I have been working in Dubai’s real estate market since 2008 and now manage a team of over 30 realtors. I specialize in Dubai’s luxury real estate segment with a special focus on the major developers in Dubai.</h6>
           <h1 class="text-center">Watch My Vlogs</h1>
@@ -255,5 +254,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
     
+    <script>
+       window.addEventListener("scroll",function(){
+           var nav =document.querySelector("nav");
+           nav.classList.toggle("sticky",window.scrollY > 0);  
+       });
+    </script>
+
 </body>
 </html>

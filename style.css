@@ -8,7 +8,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
- 
+nav.sticky{
+    padding: 5px 100px;
+    background: white;
+}
 
 marquee{
     width:60% ;
