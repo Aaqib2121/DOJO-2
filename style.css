@@ -8,9 +8,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (max-width: 320px){
+
 nav.sticky{
-    padding: 5px 100px;
     background: white;
+}
 }
 
 marquee{
