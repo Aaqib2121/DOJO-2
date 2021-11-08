@@ -146,13 +146,12 @@ input{
     background-color: white;
     padding-bottom: 30px;
     height: 450px;
-    width: 300px;
     border-radius: 7px;
 }
 
-/* .smedia-icon{
-    padding-left: 170px;
-} */
+.smedia-icon{
+    padding-right: 40px;
+}
 
 .red{
     border: 2px solid red;
