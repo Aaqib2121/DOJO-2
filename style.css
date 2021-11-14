@@ -37,7 +37,7 @@ iframe{
 
 @media screen {
     .tie-up{
-        width: 70px;
+        width: 90px;
     }    
 }
 
@@ -55,14 +55,14 @@ input{
     padding: 5px;
 }
 
-.main{
+/* .main{
     
     background-image: url(images/farooqsyed-img-2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
     background-size: contain;   
-}
+} */
 
 @media screen{
     .navbar{
@@ -77,7 +77,7 @@ input{
 }
 
 .head{
-    background-image: url(images/farooq-img-1.jpg);
+    background-image: url(images/Tie-up-img.jpg);
     background-repeat: no-repeat;
     z-index: 2;
     background-size: cover;
@@ -91,7 +91,7 @@ input{
     position: absolute;
     bottom: 40%;
     left: 27%;
-    color: #ffff;
+    color: black;
     
 }
 
