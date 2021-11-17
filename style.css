@@ -42,6 +42,8 @@ iframe{
 }
 
 
+
+
     
 
     
@@ -66,12 +68,16 @@ input{
 } */
 
 @media screen{
-    .bgcolor{
+    .navbar{
         /* background-color: transparent; */
         border-bottom: 2px solid white;
+        height: 110px;
     }
 }
 
+.tie-up-logo{
+    width: 110px;
+}
 
 .navbar-brand{
     padding-left: 45px;
