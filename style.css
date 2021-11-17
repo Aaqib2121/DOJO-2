@@ -35,7 +35,7 @@ iframe{
     margin-right: 60px;
 }
 
-@media only screen and (text-alignment: center) and (max-width: 50px) {
+@media only screen and (text-alignment: center) and (max-width: 40px) {
     .tie-up{
         display: none;
  }
