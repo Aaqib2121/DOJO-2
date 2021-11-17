@@ -35,13 +35,14 @@ iframe{
     margin-right: 60px;
 }
 
-@media screen {
+@media only screen and (text-alignment: center) and (max-width: 50px) {
     .tie-up{
-        width: 90px;
-    }    
+        display: none;
+ }
 }
 
 
+    
 
     
 
@@ -65,8 +66,8 @@ input{
 } */
 
 @media screen{
-    .navbar{
-        background-color: transparent;
+    .bgcolor{
+        /* background-color: transparent; */
         border-bottom: 2px solid white;
     }
 }
