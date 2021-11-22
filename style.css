@@ -21,7 +21,6 @@ nav.sticky{
 marquee{
     width:60% ;
     direction:left;
-    height:50px;
     width: 100%;
 }
 
@@ -131,22 +130,20 @@ input{
 }
 .about{
     z-index: 3;
-    background-color: rgb(247, 241, 241, .5);
-    
+    font-family: Poppins;
     padding: 0 5%;
-    
+    font-style: normal;
+    font-weight: 400;
 }
 
 .atext{
     text-align: center;
-    width: 70%;
+    width: 50%;
+    font-size: 20px;
     margin: auto;
 }
 
 
-.text-center{
-    margin: 5% auto;
-}
 
 
 .smedia{
@@ -255,7 +252,6 @@ footer {
     outline: none;
     background: none;
     border-bottom: 2px solid #ffff;
-    width: 300px;
     padding-bottom: 2px;
   }
     
@@ -296,4 +292,3 @@ footer {
         font-size: 22px;
     } 
 }
-
