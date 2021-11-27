@@ -13,7 +13,7 @@ body{
 }
 
 
-nav.sticky{
+.scrolled{
     position: sticky;
     background-color: white;
 }
@@ -70,7 +70,7 @@ input{
     .navbar{
         /* background-color: transparent; */
         border-bottom: 2px solid white;
-        height: 120px;
+        height: 100px;
     }
 }
 
@@ -229,6 +229,10 @@ input{
         padding-bottom: 10px;
     }
 
+}
+
+.box{
+    padding-bottom: 10px;
 }
 
 
