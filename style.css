@@ -34,11 +34,25 @@ iframe{
     margin-right: 60px;
 }
 
-@media only screen and (text-alignment: center) and (max-width: 40px) {
-    .tie-up{
-        display: none;
+/* @media  (align-items: center) and (min-width: 40px) {
+    .nav-logo{
+        width: 100%;
+        align-items: center;
  }
-}
+} */
+
+@media (max-width: 991px) {
+    .navbar {
+      text-align: center;
+    }
+    .navbar > * {
+      text-align: initial;
+    }
+    .navbar > .grid_task {
+      display: inline-block;
+      float: none;
+    }
+  }
 
 
 
@@ -74,6 +88,10 @@ input{
     }
 }
 
+/* @media() */
+.nav-logo{
+    text-align: left;
+}
 
 
 .navbar-brand{
@@ -161,7 +179,7 @@ input{
 .icol{
     background-color: white;
     padding-bottom: 30px;
-    height: 420px;
+    height: 440px;
     border-radius: 7px;
 }
 
