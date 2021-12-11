@@ -251,14 +251,14 @@
     <footer class="mt-5">
         <div class="form-1 container-fluid">
             <h4>Subscribe</h4>
-            <form id="frmSend" name="DOJO-2">
+            <form id="frmSend" method="post" autocomplete="on" name="google-sheet">
                 <label for="validationDefault01" class="form-label">First name</label>
                 <input type="text" class="form-control input" id="validationDefault01 Name" name="name" required>
                 <label for="validationDefaultUsername" class="form-label">EMAIL</label>
                 <input type="text" class="form-control input" id="validationDefaultUsername Email"  aria-describedby="inputGroupPrepend2" name="email" required>
                 <label for="validationDefault01" class="form-label">MOBILE NO</label>
                 <input type="text" class="form-control input" id="validationDefault01 Mobile" name="mobile-no" required><br>
-                <button  class="btn btn-danger" id="btnsend" type="submit" name="Send">Send</button>
+                <button  class="btn btn-danger" id="" type="submit" name="submit">Send</button>
                 
             </form> 
             <div class="row pull-right footercolor mt-4">
@@ -293,4 +293,34 @@
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 0);
         });
     </script>
+
+   <!-- <script>
+    $('#frmSend').on('submit',function (e) {
+    e.preventDefault();
+    alert('successfull');
+    $.ajax({
+        url : 'https://script.google.com/macros/s/AKfycbywNh7H42ocB24iyP6-XnpM2p5g5JIV2JITbB_L8hMosyWxfbHaP6g7XLEcmKvSpUnmfQ/exec',
+        type : 'post',
+        data : $('#frmSend').serialize(),
+        success : function(result){
+         console.log(result);
+        }
+    });  
+});
+   </script> -->
+
+
+<script type="text/javascript">
+
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZxOWjo_mLK466ZU68FjErKbVwDELdw4uWwFBDzuRnPzv23-s5eLiKWaIkwiaMZdNrOQ/exec'
+        const form = document.forms['google-sheet']
+        
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("You have successfully submitted."))
+            .catch(error => console.error('Error!', error.message))
+        });
+</script>
 
