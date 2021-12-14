@@ -191,19 +191,29 @@ input{
 
 .red{
     border: 2px solid red;
-    border-radius: 48%;
-    padding: 7% 10%;
+    border-radius: 50%;
+    padding: 4% 6%;
     margin: 5% 0;
 }
 
 .blue{
-    border: 2px solid blue;
-    border-radius: 60%;
-    padding: 7% 10%;
-    font-size: 50px;
-    color: blue;
+    border: 2px solid purple;
+    border-radius: 50%;
+    font-size: 40px;
+    color: purple;
+    padding: 5% 7%;
     margin: 5% 0;
 }
+
+.blues{
+    border: 2px solid #3b5998;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #3b5998;
+    padding: 5% 7%;
+    margin: 5% 0;
+}
+
 .sm{
     color: black;
     padding: 5%;
