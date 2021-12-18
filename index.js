@@ -27,30 +27,30 @@ counters.forEach(counter => {
 });
 
 
-const scrollbtn = document.querySelector("gotopbtn");
+// const scrollbtn = document.querySelector("gotopbtn");
 
-window.addEventListener("scroll",scrollfunction);
+// window.addEventListener("scroll",scrollfunction);
 
-function scrollfunction() {
-    if(window.pageYOffset > 300){
-        if(!scrollbtn.classList.add("gotopbtn")){
-            scrollbtn.classList.add("gotopbtn")
-            scrollbtn.style.display = "block";
-        }
+// function scrollfunction() {
+//     if(window.pageYOffset > 300){
+//         if(!scrollbtn.classList.add("gotopbtn")){
+//             scrollbtn.classList.add("gotopbtn")
+//             scrollbtn.style.display = "block";
+//         }
         
-    }
-    else{
-        if(!scrollbtn.classList.add("gotopbtn")){
-            scrollbtn.style.display = "none";
-        }   
-    }
-};
+//     }
+//     else{
+//         if(!scrollbtn.classList.add("gotopbtn")){
+//             scrollbtn.style.display = "none";
+//         }   
+//     }
+// };
 
-gotopbtn.addEventListener("click",gotopbtn);
+// gotopbtn.addEventListener("click",gotopbtn);
 
-function scrollbtn() {
-    window.scrollTo(0,0);
-}
+// function scrollbtn() {
+//     window.scrollTo(0,0);
+// }
 
 
 
