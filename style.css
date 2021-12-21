@@ -145,6 +145,7 @@ input{
     padding-left: 4.5%;
     margin-left: 4%;
 }
+
 .icol{
     align-items: center;
     background-color: white;
@@ -158,11 +159,11 @@ input{
 .red{
     border: 2px solid red;
     border-radius: 50%;
-    font-size: 2.70rem;
+    font-size: 2rem;
     color: red;
-    padding: 3% 3%;
-    margin: 4% 0;
-    margin-bottom: 20px;
+    padding: 2% 2%;
+    margin: 5% 0;
+    margin-bottom: 30px;
 }
 
 .blue{
@@ -170,9 +171,9 @@ input{
     border-radius: 50%;
     font-size: 40px;
     color: purple;
-    padding: 4% 5%;
-    margin: 4% 0;
-    margin-bottom: 20px;
+    padding: 3% 4%;
+    margin: 5% 0;
+    margin-bottom: 30px;
 }
 
 .blues{
@@ -180,9 +181,9 @@ input{
     border-radius: 50%;
     font-size: 32px;
     color: #3b5998;
-    padding: 5% 7%;
-    margin: 4% 0;
-    margin-bottom: 20px;
+    padding: 4% 6%;
+    margin: 5% 0;
+    margin-bottom: 30px;
 } 
 
 .sm{
